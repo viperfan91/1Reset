@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -r ~/Library/Containers/2BUA8C4S2C.com.agilebits.onepassword-osx-helper
+rm -r ~/Library/Application\ Support/1Password\ 4
+rm -r ~/Library/Preferences/2BUA8C4S2C.com.agilebits.onepassword4-helper.plist
+rm -r ~/Library/Preferences/com.agilebits.onepassword4.plist

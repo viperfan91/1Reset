@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6081B5193FBD1700D266DB /* 1Reset-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6081B4193FBD1700D266DB /* 1Reset-BG.png */; };
+		3E6EACEE193FADE800087E10 /* 1Reset - Orig Bash in Resources */ = {isa = PBXBuildFile; fileRef = 3E6EACED193FADE800087E10 /* 1Reset - Orig Bash */; };
+		3E6EACF7193FB88A00087E10 /* lock_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6EACF5193FB88A00087E10 /* lock_03.png */; };
+		3E6EACF8193FB88A00087E10 /* unlock_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6EACF6193FB88A00087E10 /* unlock_03.png */; };
+		3E6EACFE193FB9D100087E10 /* 1Reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6EACFD193FB9D100087E10 /* 1Reset.png */; };
+		3E6EAD00193FBA0B00087E10 /* Icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3E6EACFF193FBA0B00087E10 /* Icons.icns */; };
 		3EC20C03193E7023002B34B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC20C02193E7023002B34B7 /* Cocoa.framework */; };
 		3EC20C05193E7023002B34B7 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC20C04193E7023002B34B7 /* AppleScriptObjC.framework */; };
 		3EC20C0F193E7023002B34B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EC20C0D193E7023002B34B7 /* InfoPlist.strings */; };
@@ -14,10 +20,15 @@
 		3EC20C15193E7023002B34B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3EC20C13193E7023002B34B7 /* Credits.rtf */; };
 		3EC20C17193E7023002B34B7 /* _ResetAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 3EC20C16193E7023002B34B7 /* _ResetAppDelegate.applescript */; };
 		3EC20C1A193E7023002B34B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC20C18193E7023002B34B7 /* MainMenu.xib */; };
-		3EC20C1C193E7023002B34B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC20C1B193E7023002B34B7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E6081B4193FBD1700D266DB /* 1Reset-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Reset-BG.png"; sourceTree = "<group>"; };
+		3E6EACED193FADE800087E10 /* 1Reset - Orig Bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "1Reset - Orig Bash"; sourceTree = "<group>"; };
+		3E6EACF5193FB88A00087E10 /* lock_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock_03.png; path = ../../../../Desktop/lock_03.png; sourceTree = "<group>"; };
+		3E6EACF6193FB88A00087E10 /* unlock_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unlock_03.png; path = ../../../../Desktop/unlock_03.png; sourceTree = "<group>"; };
+		3E6EACFD193FB9D100087E10 /* 1Reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1Reset.png; path = ../../../../Desktop/1Reset.png; sourceTree = "<group>"; };
+		3E6EACFF193FBA0B00087E10 /* Icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icons.icns; sourceTree = "<group>"; };
 		3EC20BFF193E7023002B34B7 /* 1Reset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1Reset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC20C02193E7023002B34B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3EC20C04193E7023002B34B7 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -31,7 +42,6 @@
 		3EC20C14193E7023002B34B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		3EC20C16193E7023002B34B7 /* _ResetAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = _ResetAppDelegate.applescript; sourceTree = "<group>"; };
 		3EC20C19193E7023002B34B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		3EC20C1B193E7023002B34B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +99,6 @@
 			children = (
 				3EC20C16193E7023002B34B7 /* _ResetAppDelegate.applescript */,
 				3EC20C18193E7023002B34B7 /* MainMenu.xib */,
-				3EC20C1B193E7023002B34B7 /* Images.xcassets */,
 				3EC20C0B193E7023002B34B7 /* Supporting Files */,
 			);
 			path = 1Reset;
@@ -98,6 +107,12 @@
 		3EC20C0B193E7023002B34B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E6081B4193FBD1700D266DB /* 1Reset-BG.png */,
+				3E6EACFF193FBA0B00087E10 /* Icons.icns */,
+				3E6EACFD193FB9D100087E10 /* 1Reset.png */,
+				3E6EACF5193FB88A00087E10 /* lock_03.png */,
+				3E6EACF6193FB88A00087E10 /* unlock_03.png */,
+				3E6EACED193FADE800087E10 /* 1Reset - Orig Bash */,
 				3EC20C0C193E7023002B34B7 /* 1Reset-Info.plist */,
 				3EC20C0D193E7023002B34B7 /* InfoPlist.strings */,
 				3EC20C10193E7023002B34B7 /* main.m */,
@@ -159,8 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6EACEE193FADE800087E10 /* 1Reset - Orig Bash in Resources */,
+				3E6081B5193FBD1700D266DB /* 1Reset-BG.png in Resources */,
+				3E6EAD00193FBA0B00087E10 /* Icons.icns in Resources */,
+				3E6EACFE193FB9D100087E10 /* 1Reset.png in Resources */,
+				3E6EACF8193FB88A00087E10 /* unlock_03.png in Resources */,
 				3EC20C0F193E7023002B34B7 /* InfoPlist.strings in Resources */,
-				3EC20C1C193E7023002B34B7 /* Images.xcassets in Resources */,
+				3E6EACF7193FB88A00087E10 /* lock_03.png in Resources */,
 				3EC20C15193E7023002B34B7 /* Credits.rtf in Resources */,
 				3EC20C1A193E7023002B34B7 /* MainMenu.xib in Resources */,
 			);
@@ -281,7 +301,6 @@
 		3EC20C20193E7023002B34B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1Reset/1Reset-Prefix.pch";
@@ -294,7 +313,6 @@
 		3EC20C21193E7023002B34B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1Reset/1Reset-Prefix.pch";
@@ -323,6 +341,7 @@
 				3EC20C21193E7023002B34B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
