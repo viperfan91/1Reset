@@ -1,5 +1,6 @@
-STILL IN PROGRESS!
+STILL IN PROGRESS
 ==================
+As of right now this program does not actually preform the actions described. Due to the severity of the actions I have it messing around with dummy files until I know it works.
 
 1Reset
 ======
